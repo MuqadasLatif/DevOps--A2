@@ -18,7 +18,7 @@ def scrape_web_page(url):
         return clean_text
 
     except requests.exceptions.RequestException as e:
-        print(f"There is an error: {e}")
+        print(f"got an error: {e}")
         return None
 
 if __name__ == "__main__":
